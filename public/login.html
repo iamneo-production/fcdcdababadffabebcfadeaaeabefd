@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pages</title>
+    <style>
+      body{
+        background-color: rgb(65, 64, 64);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+      }
+      .login{
+        background-color: rgb(65, 64, 64);
+        border: solid white;
+        border-width: 1px;
+        border-radius: 10px;
+        height:500px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h3,h1{
+        color: white;
+        font-family: Arial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      h1{
+        padding-bottom: 40px;
+      }
+      h3{
+        padding-bottom: 10px;
+      }
+      input{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 300px;
+        margin-bottom:10px;
+        border-radius: 10px;
+        border: none;
+
+      }
+      button{
+        color:black;
+        background-color: white;
+        border: none;
+        width:320px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+      <h1 id="login-heading">LOGIN</h1>
+        <div class="single">
+          <h3>Name :</h3>
+          <input  type="text">
+        </div>
+        <div class="single">
+          <h3>Email :</h3>
+          <input  type="text">
+        </div>
+        <div class="single">
+          <h3>Password :</h3>
+          <input type="text">
+        </div>
+        <button id="submit_btn">LOGIN</button>
+    </div>
+</body>
+</html>
